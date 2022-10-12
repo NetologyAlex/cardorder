@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class CardTest {
     @BeforeEach
     void setUp(){
-        open("http://localhost:8080");
+        open("http://localhost:9999");
     }
     @Test
     void shouldRequest(){
